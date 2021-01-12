@@ -1,5 +1,6 @@
 import React from 'react'
 import './Feed.css';
+import Post from './Post';
 import CreateIcon from "@material-ui/icons/Create";
 import ImageIcon from "@material-ui/icons/Image";
 import InputOption from './InputOption';
@@ -41,6 +42,10 @@ function Feed() {
 
                 </div>
             </div>
+
+            {/* Posts */}
+
+            <Post name="marvin" description ='this is a test' message ='new message'  />
         </div>
     )
 }
